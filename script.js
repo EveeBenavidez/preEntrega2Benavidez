@@ -1,3 +1,12 @@
+function solNombreProf(){
+    let nombreIngresado = prompt("Ingrese su nombre")
+    console.log (nombreIngresado)
+    alert("Hola, " + nombreIngresado.toLocaleUpperCase() + ", a continuación le pediremos unos datos")
+}
+
+solNombreProf()
+
+
 do {
     let cantPersonas = parseInt(prompt("Ingrese cantidad de personas"))
     let datos = []
@@ -66,4 +75,6 @@ for(let i=0; i < datosFiltrado.length; i++){
 opciones = Number(prompt("Ingrese 1 para iniciar o reiniciar \n Presione enter para terminar "))
 } while (opciones != 0)
 
-alert("Hasta Luego, si desea reiniciar precione f5")
+
+
+alert("Hasta Luego, si desea reiniciar presione f5")
